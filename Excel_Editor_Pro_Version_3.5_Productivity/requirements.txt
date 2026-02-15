@@ -1,0 +1,50 @@
+# Excel Editor Pro - Requirements
+# Version 3.3 - AI Enhanced Edition
+
+# Core GUI Framework
+PyQt5>=5.12.0
+
+# Data Processing
+pandas>=1.0.0
+numpy>=1.18.0
+openpyxl>=3.0.0
+
+# Document Export
+python-docx>=0.8.0
+
+# AI Features (Optional but Recommended)
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# Visualization Features
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Cloud Sync Features (Optional)
+# For Google Drive
+google-auth>=2.0.0
+google-auth-oauthlib>=0.5.0
+google-auth-httplib2>=0.1.0
+google-api-python-client>=2.0.0
+
+# For OneDrive
+onedrivesdk>=1.1.8
+msal>=1.20.0
+
+# For Dropbox
+dropbox>=11.0.0
+
+# Installation Command:
+# pip install -r requirements.txt
+
+# Minimal Installation (without AI):
+# pip install PyQt5 pandas numpy openpyxl python-docx
+
+# Full Installation (with AI features):
+# pip install PyQt5 pandas numpy openpyxl python-docx scikit-learn scipy
+
+# Cloud Sync Installation (optional):
+# pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client msal dropbox
+
+# Complete Installation (all features):
+# pip install -r requirements.txt
